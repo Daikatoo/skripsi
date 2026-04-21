@@ -1,0 +1,2 @@
+ALTER TABLE anggaran ADD COLUMN IF NOT EXISTS dokumen_url TEXT;
+ALTER TABLE anggaran ADD COLUMN IF NOT EXISTS dokumen_name TEXT;
