@@ -221,7 +221,7 @@ export function ReviewForm({
                 </form>
             </div>
 
-            <style jsx>{`
+            <style>{`
         .action-option {
           display: block;
           border: 2px solid #e2e8f0;

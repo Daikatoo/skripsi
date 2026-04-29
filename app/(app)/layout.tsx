@@ -24,26 +24,30 @@ export default async function AppLayout({ children }: { children: React.ReactNod
         redirect('/login?error=profile_not_found')
     }
 
+    // Count pending reviews from both pengajuan (new) and anggaran (legacy)
     let pendingReviewCount = 0
     if (profile.role === 'kepala_divisi') {
-        const { count } = await supabase
-            .from('anggaran')
+        // New table: pengajuan (by unit_id)
+        const { count: c1 } = await supabase.from('pengajuan')
             .select('*', { count: 'exact', head: true })
-            .eq('divisi', profile.divisi)
-            .eq('status', 'pending_kepala')
-        pendingReviewCount = count || 0
+            .eq('unit_id', profile.unit_id).eq('status', 'pending_kepala')
+        // Legacy table: anggaran (by divisi)
+        const { count: c2 } = await supabase.from('anggaran')
+            .select('*', { count: 'exact', head: true })
+            .eq('divisi', profile.divisi).eq('status', 'pending_kepala')
+        pendingReviewCount = (c1 || 0) + (c2 || 0)
     } else if (profile.role === 'keuangan') {
-        const { count } = await supabase
-            .from('anggaran')
-            .select('*', { count: 'exact', head: true })
-            .eq('status', 'pending_keuangan')
-        pendingReviewCount = count || 0
+        const { count: c1 } = await supabase.from('pengajuan')
+            .select('*', { count: 'exact', head: true }).eq('status', 'pending_keuangan')
+        const { count: c2 } = await supabase.from('anggaran')
+            .select('*', { count: 'exact', head: true }).eq('status', 'pending_keuangan')
+        pendingReviewCount = (c1 || 0) + (c2 || 0)
     } else if (profile.role === 'rektorat') {
-        const { count } = await supabase
-            .from('anggaran')
-            .select('*', { count: 'exact', head: true })
-            .eq('status', 'pending_rektorat')
-        pendingReviewCount = count || 0
+        const { count: c1 } = await supabase.from('pengajuan')
+            .select('*', { count: 'exact', head: true }).eq('status', 'pending_rektorat')
+        const { count: c2 } = await supabase.from('anggaran')
+            .select('*', { count: 'exact', head: true }).eq('status', 'pending_rektorat')
+        pendingReviewCount = (c1 || 0) + (c2 || 0)
     }
 
     return (
