@@ -221,32 +221,8 @@ export function ReviewForm({
                 </form>
             </div>
 
-            <style>{`
-        .action-option {
-          display: block;
-          border: 2px solid #e2e8f0;
-          border-radius: 10px;
-          padding: 14px 16px;
-          transition: all 0.15s;
-        }
-        .action-option:hover {
-          border-color: #94a3b8;
-          background: #f8fafc;
-        }
-        .action-option-content {
-          display: flex;
-          align-items: center;
-          gap: 12px;
-        }
-        .selected-approve {
-          border-color: #10b981 !important;
-          background: #f0fdf4 !important;
-        }
-        .selected-revision {
-          border-color: #f59e0b !important;
-          background: #fffbeb !important;
-        }
-      `}</style>
+
+
         </div>
     )
 }

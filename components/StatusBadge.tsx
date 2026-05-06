@@ -36,6 +36,7 @@ function StatusIndicator({ status }: { status: AnggaranStatus }) {
         pending_rektorat: '#3730a3',
         revision_rektorat: '#d97706',
         approved: '#059669',
+        rejected: '#dc2626',
     }
 
     const bgColors: Record<AnggaranStatus, string> = {
@@ -47,6 +48,7 @@ function StatusIndicator({ status }: { status: AnggaranStatus }) {
         pending_rektorat: '#e0e7ff',
         revision_rektorat: '#fef3c7',
         approved: '#d1fae5',
+        rejected: '#fee2e2',
     }
 
     return (
@@ -77,6 +79,7 @@ export function StatusBadgeStyled({ status }: { status: AnggaranStatus }) {
         pending_rektorat: { text: '#3730a3', bg: '#e0e7ff', dot: '#6366f1' },
         revision_rektorat: { text: '#d97706', bg: '#fef3c7', dot: '#f59e0b' },
         approved: { text: '#059669', bg: '#d1fae5', dot: '#10b981' },
+        rejected: { text: '#dc2626', bg: '#fee2e2', dot: '#ef4444' },
     }
 
     const colors = colorMap[status] || colorMap.draft

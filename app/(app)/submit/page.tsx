@@ -27,8 +27,8 @@ export default function SubmitPage() {
     const [parsedJson, setParsedJson] = useState('')
 
     useEffect(() => {
-        fetch('/api/master-unit').then(r => r.json()).then(setUnits).catch(() => {})
-        fetch('/api/coa?tipe_akun=Expense&header=false').then(r => r.json()).then(setCoaList).catch(() => {})
+        fetch('/api/master-unit').then(r => r.json()).then(d => Array.isArray(d) ? setUnits(d) : setUnits([])).catch(() => {})
+        fetch('/api/coa?tipe_akun=Expense&header=false').then(r => r.json()).then(d => Array.isArray(d) ? setCoaList(d) : setCoaList([])).catch(() => {})
     }, [])
 
     const handleFileChange = async (e: React.ChangeEvent<HTMLInputElement>) => {

@@ -388,12 +388,7 @@ export default function AdminUsersPage() {
                 </div>
             )}
 
-            <style>{`
-                @keyframes slideInRight {
-                    from { transform: translateX(100%); }
-                    to { transform: translateX(0); }
-                }
-            `}</style>
+
         </div>
     )
 }

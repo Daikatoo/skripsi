@@ -71,7 +71,7 @@ export async function POST(request: Request) {
             dokumen_url: docUrl, dokumen_name: docName,
             parsed_data: parsedData, total_anggaran: total,
             submitted_by: user.id, status: 'pending_kepala',
-        }).select().single().catch(() => null)
+        })
 
         // 5. Log
         await supabase.from('approval_logs').insert({
