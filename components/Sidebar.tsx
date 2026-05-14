@@ -13,6 +13,7 @@ const NAV: Record<string, Array<{ href: string; label: string; icon: string }>> 
   anggota: [
     { href: '/dashboard', label: 'Dashboard', icon: '📊' },
     { href: '/rapb', label: 'RAPB', icon: '📋' },
+    { href: '/pengajuan', label: 'Pengajuan Bulanan', icon: '📝' },
     { href: '/submit', label: 'Ajukan Anggaran', icon: '📤' },
     { href: '/riwayat', label: 'Riwayat', icon: '🗂️' },
     { href: '/password', label: 'Ganti Password', icon: '🔑' },
@@ -20,6 +21,7 @@ const NAV: Record<string, Array<{ href: string; label: string; icon: string }>> 
   kepala_divisi: [
     { href: '/dashboard', label: 'Dashboard', icon: '📊' },
     { href: '/rapb', label: 'RAPB', icon: '📋' },
+    { href: '/pengajuan', label: 'Pengajuan Bulanan', icon: '📝' },
     { href: '/kepala', label: 'Review Anggaran', icon: '✅' },
     { href: '/realisasi', label: 'Realisasi', icon: '💰' },
     { href: '/riwayat', label: 'Semua Pengajuan', icon: '🗂️' },
@@ -28,8 +30,10 @@ const NAV: Record<string, Array<{ href: string; label: string; icon: string }>> 
   keuangan: [
     { href: '/dashboard', label: 'Dashboard', icon: '📊' },
     { href: '/rapb', label: 'RAPB', icon: '📋' },
+    { href: '/pengajuan', label: 'Pengajuan Bulanan', icon: '📝' },
     { href: '/keuangan', label: 'Review Anggaran', icon: '✅' },
     { href: '/realisasi', label: 'Realisasi', icon: '💰' },
+    { href: '/pengeluaran', label: 'Rekap Pengeluaran', icon: '💸' },
     { href: '/laporan', label: 'Laporan Keuangan', icon: '📈' },
     { href: '/riwayat', label: 'Semua Pengajuan', icon: '🗂️' },
     { href: '/password', label: 'Ganti Password', icon: '🔑' },
@@ -37,8 +41,10 @@ const NAV: Record<string, Array<{ href: string; label: string; icon: string }>> 
   rektorat: [
     { href: '/dashboard', label: 'Dashboard', icon: '📊' },
     { href: '/rapb', label: 'RAPB', icon: '📋' },
+    { href: '/pengajuan', label: 'Pengajuan Bulanan', icon: '📝' },
     { href: '/rektorat', label: 'Review Anggaran', icon: '✅' },
     { href: '/realisasi', label: 'Realisasi', icon: '💰' },
+    { href: '/pengeluaran', label: 'Rekap Pengeluaran', icon: '💸' },
     { href: '/laporan', label: 'Laporan Keuangan', icon: '📈' },
     { href: '/riwayat', label: 'Semua Pengajuan', icon: '🗂️' },
     { href: '/password', label: 'Ganti Password', icon: '🔑' },
@@ -47,7 +53,9 @@ const NAV: Record<string, Array<{ href: string; label: string; icon: string }>> 
     { href: '/dashboard', label: 'Dashboard', icon: '📊' },
     { href: '/master', label: 'Master Data', icon: '🏛️' },
     { href: '/rapb', label: 'RAPB', icon: '📋' },
+    { href: '/pengajuan', label: 'Pengajuan Bulanan', icon: '📝' },
     { href: '/realisasi', label: 'Realisasi', icon: '💰' },
+    { href: '/pengeluaran', label: 'Rekap Pengeluaran', icon: '💸' },
     { href: '/laporan', label: 'Laporan Keuangan', icon: '📈' },
     { href: '/riwayat', label: 'Semua Pengajuan', icon: '🗂️' },
     { href: '/admin/users', label: 'Manajemen User', icon: '👥' },

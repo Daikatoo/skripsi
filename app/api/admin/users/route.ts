@@ -104,15 +104,19 @@ export async function POST(request: Request) {
         }
 
         const body = await request.json()
-        const { username, password, full_name, role, divisi } = body
+        const { username, password, full_name, role, unit_id } = body
 
-        if (!username || !password || !full_name || !role || !divisi) {
+        if (!username || !password || !full_name || !role || !unit_id) {
             return NextResponse.json({ error: 'Semua field wajib diisi.' }, { status: 400 })
         }
 
         if (password.length < 6) {
             return NextResponse.json({ error: 'Password minimal 6 karakter.' }, { status: 400 })
         }
+
+        // Fetch unit details to save unit name into 'divisi' for backwards compatibility
+        const { data: unitData } = await supabase.from('master_unit').select('nama').eq('id', unit_id).single()
+        const divisiName = unitData?.nama || 'Unknown'
 
         const supabaseAdmin = createServerClient(
             process.env.NEXT_PUBLIC_SUPABASE_URL!,
@@ -135,7 +139,8 @@ export async function POST(request: Request) {
             user_metadata: {
                 full_name,
                 role,
-                divisi,
+                divisi: divisiName,
+                unit_id: unit_id,
                 username: safeUsername
             }
         })

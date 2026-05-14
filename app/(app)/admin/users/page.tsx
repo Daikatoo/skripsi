@@ -5,18 +5,6 @@ import { createClient } from '@/lib/supabase/client'
 import { ROLE_CONFIG, formatDate } from '@/lib/utils'
 import { useRouter } from 'next/navigation'
 
-const DIVISI_OPTIONS = [
-    'Akademik',
-    'Administrasi',
-    'Keuangan',
-    'IT & Teknologi',
-    'Kemahasiswaan',
-    'Penelitian & Pengabdian',
-    'Humas & Pemasaran',
-    'Sarana & Prasarana',
-    'Lainnya',
-]
-
 interface UserProfile {
     id: string
     full_name: string
@@ -24,8 +12,11 @@ interface UserProfile {
     username: string | null
     role: string
     divisi: string | null
+    unit_id: string | null
     created_at: string
 }
+
+interface Unit { id: string; nama: string; kode: string }
 
 export default function AdminUsersPage() {
     const supabase = createClient()
@@ -45,8 +36,10 @@ export default function AdminUsersPage() {
         username: '',
         password: '',
         role: 'anggota',
-        divisi: '',
+        unit_id: '',
     })
+    
+    const [units, setUnits] = useState<Unit[]>([])
 
     // Proteksi: cek apakah user = admin
     useEffect(() => {
@@ -85,7 +78,10 @@ export default function AdminUsersPage() {
     }
 
     useEffect(() => {
-        if (isAdmin) fetchUsers()
+        if (isAdmin) {
+            fetchUsers()
+            fetch('/api/master-unit').then(r => r.json()).then(d => Array.isArray(d) ? setUnits(d) : setUnits([]))
+        }
     }, [isAdmin])
 
     const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
@@ -97,8 +93,8 @@ export default function AdminUsersPage() {
         setMessage({ type: '', text: '' })
         setIsSubmitting(true)
 
-        if (!form.divisi) {
-            setMessage({ type: 'error', text: 'Silakan pilih divisi.' })
+        if (!form.unit_id) {
+            setMessage({ type: 'error', text: 'Silakan pilih unit/divisi.' })
             setIsSubmitting(false)
             return
         }
@@ -114,7 +110,7 @@ export default function AdminUsersPage() {
             if (!res.ok) throw new Error(data.error || 'Terjadi kesalahan')
 
             setMessage({ type: 'success', text: `Akun ${form.full_name} berhasil dibuat!` })
-            setForm({ full_name: '', username: '', password: '', role: 'anggota', divisi: '' })
+            setForm({ full_name: '', username: '', password: '', role: 'anggota', unit_id: '' })
             fetchUsers()
             setTimeout(() => setDrawerOpen(false), 1500)
 
@@ -364,12 +360,12 @@ export default function AdminUsersPage() {
                                 </div>
 
                                 <div className="form-group">
-                                    <label className="form-label" htmlFor="divisi">Divisi</label>
-                                    <select id="divisi" name="divisi" className="form-input form-select"
-                                        value={form.divisi} onChange={handleChange} required>
-                                        <option value="">Pilih Divisi</option>
-                                        {DIVISI_OPTIONS.map((d) => (
-                                            <option key={d} value={d}>{d}</option>
+                                    <label className="form-label" htmlFor="unit_id">Unit / Divisi</label>
+                                    <select id="unit_id" name="unit_id" className="form-input form-select"
+                                        value={form.unit_id} onChange={handleChange} required>
+                                        <option value="">Pilih Unit / Divisi</option>
+                                        {units.map((u) => (
+                                            <option key={u.id} value={u.id}>{u.nama} ({u.kode})</option>
                                         ))}
                                     </select>
                                 </div>
