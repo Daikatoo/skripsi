@@ -1,5 +1,5 @@
 'use client'
-import { useState, useEffect, useMemo } from 'react'
+import React, { useState, useEffect, useMemo } from 'react'
 import { BULAN_NAMES } from '@/lib/utils'
 
 interface PengeluaranRow {

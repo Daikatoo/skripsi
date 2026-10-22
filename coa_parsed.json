@@ -1,0 +1,2624 @@
+[
+  {
+    "acctNo": "11000",
+    "name": "Kas & Bank",
+    "type": "Cash/Bank",
+    "level": 1
+  },
+  {
+    "acctNo": "11100",
+    "name": "Kas",
+    "type": "Cash/Bank",
+    "level": 2
+  },
+  {
+    "acctNo": "11101",
+    "name": "Kas IDR",
+    "type": "Cash/Bank",
+    "level": 3
+  },
+  {
+    "acctNo": "110302",
+    "name": "Account Receivable RMB",
+    "type": "Account Receivable",
+    "level": 1
+  },
+  {
+    "acctNo": "110402",
+    "name": "Advance Purchase RMB",
+    "type": "Account Receivable",
+    "level": 1
+  },
+  {
+    "acctNo": "12000",
+    "name": "Bank",
+    "type": "Cash/Bank",
+    "level": 1
+  },
+  {
+    "acctNo": "12001",
+    "name": "Bank OCBC NISP 054010700122",
+    "type": "Cash/Bank",
+    "level": 2
+  },
+  {
+    "acctNo": "12002",
+    "name": "Bank BCA 0103882009",
+    "type": "Cash/Bank",
+    "level": 2
+  },
+  {
+    "acctNo": "12003",
+    "name": "Bank BNI Hibah 6003008899",
+    "type": "Cash/Bank",
+    "level": 2
+  },
+  {
+    "acctNo": "12004",
+    "name": "Bank BCA Galaxy 7880136636",
+    "type": "Cash/Bank",
+    "level": 2
+  },
+  {
+    "acctNo": "12005",
+    "name": "Bank BCA UG 7880922992",
+    "type": "Cash/Bank",
+    "level": 2
+  },
+  {
+    "acctNo": "12006",
+    "name": "Bank OCBC NISP PHP-PTS",
+    "type": "Cash/Bank",
+    "level": 2
+  },
+  {
+    "acctNo": "12007",
+    "name": "Deposito NISP",
+    "type": "Cash/Bank",
+    "level": 2
+  },
+  {
+    "acctNo": "12008",
+    "name": "Deposito Maspion",
+    "type": "Cash/Bank",
+    "level": 2
+  },
+  {
+    "acctNo": "12009",
+    "name": "Deposito Nobu",
+    "type": "Cash/Bank",
+    "level": 2
+  },
+  {
+    "acctNo": "12010",
+    "name": "Bank BCA RMB 7880322332",
+    "type": "Cash/Bank",
+    "level": 2
+  },
+  {
+    "acctNo": "12011",
+    "name": "Bank Maspion 1016101008",
+    "type": "Cash/Bank",
+    "level": 2
+  },
+  {
+    "acctNo": "12012",
+    "name": "Bank Maspion  VA 1012038883",
+    "type": "Cash/Bank",
+    "level": 2
+  },
+  {
+    "acctNo": "12013",
+    "name": "Deposito Bank Capital",
+    "type": "Cash/Bank",
+    "level": 2
+  },
+  {
+    "acctNo": "12014",
+    "name": "Bank Maspion 1286001234",
+    "type": "Cash/Bank",
+    "level": 2
+  },
+  {
+    "acctNo": "12015",
+    "name": "Bank BRI 017201003061309",
+    "type": "Cash/Bank",
+    "level": 2
+  },
+  {
+    "acctNo": "12016",
+    "name": "Bank BCA MABA 8725166555",
+    "type": "Cash/Bank",
+    "level": 2
+  },
+  {
+    "acctNo": "12017",
+    "name": "Bank BCA FT 8725564666",
+    "type": "Cash/Bank",
+    "level": 2
+  },
+  {
+    "acctNo": "12018",
+    "name": "Bank BCA  8725684777",
+    "type": "Cash/Bank",
+    "level": 2
+  },
+  {
+    "acctNo": "12019",
+    "name": "Bank BCA Genteng VA 5093670000",
+    "type": "Cash/Bank",
+    "level": 2
+  },
+  {
+    "acctNo": "12020",
+    "name": "Bank BCA Genteng OP 5093671111",
+    "type": "Cash/Bank",
+    "level": 2
+  },
+  {
+    "acctNo": "12021",
+    "name": "Bank Nobu 70130171400",
+    "type": "Cash/Bank",
+    "level": 2
+  },
+  {
+    "acctNo": "12022",
+    "name": "Deposito Mayapada",
+    "type": "Cash/Bank",
+    "level": 2
+  },
+  {
+    "acctNo": "13000",
+    "name": "Piutang Mahasiswa dan Karyawan",
+    "type": "Account Receivable",
+    "level": 1
+  },
+  {
+    "acctNo": "13000.1",
+    "name": "Piutang Mahasiswa dan Karyawan",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "13001",
+    "name": "Piutang Karyawan",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "13002",
+    "name": "Piutang Koperasi",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "13003",
+    "name": "Piutang Lain-Lain",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "13003.1",
+    "name": "Piutang Lain-Lain",
+    "type": "Account Receivable",
+    "level": 3
+  },
+  {
+    "acctNo": "13014",
+    "name": "Piutang Bunga",
+    "type": "Account Receivable",
+    "level": 3
+  },
+  {
+    "acctNo": "13004",
+    "name": "Piutang Pajak Pasal 23",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "13005",
+    "name": "Piutang Mahasiswa Genap 15-16",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "13006",
+    "name": "Piutang Mahasiswa Gasal 15-16",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "13007",
+    "name": "Piutang Mahasiswa Genap 14-15",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "13008",
+    "name": "Piutang Mahasiswa Gasal 14-15",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "13009",
+    "name": "Piutang UG A. 15",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "13010",
+    "name": "Piutang UG A. 14",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "13011",
+    "name": "Piutang UG A. 13",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "13012",
+    "name": "Uang Muka Aktiva Tetap",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "13013",
+    "name": "Piutang Mentawai",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "13015",
+    "name": "Piutang Mahasiswa Gasal 16-17",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "13016",
+    "name": "Piutang UG A. 16",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "13017",
+    "name": "Uang Muka",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "13018",
+    "name": "Piutang Mahasiswa Genap 16-17",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "13019",
+    "name": "Piutang UG A. 17",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "13020",
+    "name": "Piutang Mahasiswa Gasal 17-18",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "13021",
+    "name": "Piutang Mahasiswa Genap 17-18",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "13022",
+    "name": "Piutang Mentawai - Study Tour",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "13023",
+    "name": "Piutang Mahasiswa Gasal 18-19",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "13024",
+    "name": "Piutang UG A.18",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "13025",
+    "name": "Piutang Mahasiswa Genap 18-19",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "13026",
+    "name": "Piutang UG A.19",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "13027",
+    "name": "Piutang Mahasiswa Gasal 19-20",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "13028",
+    "name": "Piutang Mahasiswa Genap 19-20",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "13029",
+    "name": "Piutang Mahasiswa Gasal 20-21",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "13030",
+    "name": "Piutang UG A.20",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "13031",
+    "name": "Piutang yang akan Datang - UG 20",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "13032",
+    "name": "Piutang yang akan Datang - UPMB (20)",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "13033",
+    "name": "Piutang yang akan Datang - DU (20)",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "13034",
+    "name": "Piutang yang akan Datang - VA (20)",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "13035",
+    "name": "Piutang UPMB 21-22",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "13036",
+    "name": "Piutang DU 21-22",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "13037",
+    "name": "Piutang VA 21-22",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "13038",
+    "name": "Piutang UG 21-22",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "13039",
+    "name": "Piutang UK 21-22",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "13040",
+    "name": "Piutang Formulir 21-22",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "13041",
+    "name": "Piutang UPMB 20-21",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "13042",
+    "name": "Piutang VA 20-21",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "13043",
+    "name": "Piutang Formulir 20-21",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "13044",
+    "name": "Piutang Mahasiswa Genap 20-21",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "13045",
+    "name": "Piutang Mahasiswa Gasal 21-22",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "13046",
+    "name": "Piutang Mahasiswa Genap 21-22",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "13047",
+    "name": "Piutang Formulir  22-23",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "13048",
+    "name": "Piutang UPMB 22-23",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "13049",
+    "name": "Piutang DU 22-23",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "13050",
+    "name": "Piutang VA 22-23",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "13051",
+    "name": "Piutang UG 22-23",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "13052",
+    "name": "Piutang Mahasiswa Gasal 22-23",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "13053",
+    "name": "Piutang Mahasiswa Genap 22-23",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "13054",
+    "name": "Piutang Formulir 23-24",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "13055",
+    "name": "Piutang UPMB 23-24",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "13056",
+    "name": "Piutang DU 23-24",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "13057",
+    "name": "Piutang VA 23-24",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "13058",
+    "name": "Piutang UG 23-24",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "13059",
+    "name": "Piutang UK 23-24",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "13060",
+    "name": "Piutang Mahasiswa Gasal 23-24",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "13061",
+    "name": "Piutang Mahasiswa Genap 23-24",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "13062",
+    "name": "Piutang Formulir 24-25",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "13063",
+    "name": "Piutang UPMB 24-25",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "13064",
+    "name": "Piutang DU 24-25",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "13065",
+    "name": "Piutang VA 24-25",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "13066",
+    "name": "Piutang UG 24-25",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "13067",
+    "name": "Piutang Mahasiswa Gasal 24-25",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "13068",
+    "name": "Piutang Mahasiswa Genap 24-25",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "13069",
+    "name": "Piutang  Kursus Bahasa mandarin",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "13070",
+    "name": "Piutang Formulir 25-26",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "13071",
+    "name": "Piutang UPMB 25-26",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "13072",
+    "name": "Piutang DU 25-26",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "13073",
+    "name": "Piutang VA 25-26",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "13074",
+    "name": "Piutang UG 25-26",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "13075",
+    "name": "Piutang Mahasiswa Gasal 25-26",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "13076",
+    "name": "Piutang Mahasiswa Genap 25-26",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "13077",
+    "name": "Piutang Formulir 26-27",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "13078",
+    "name": "Piutang UPMB 26-27",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "13079",
+    "name": "Piutang DU 26-27",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "13080",
+    "name": "Piutang VA 26-27",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "13081",
+    "name": "Piutang UG 26-27",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "13082",
+    "name": "Piutang Mahasiswa Gasal 26-27",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "13083",
+    "name": "Piutang Mahasiswa Genap 26-27",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "13100",
+    "name": "Uang Muka Event",
+    "type": "Account Receivable",
+    "level": 1
+  },
+  {
+    "acctNo": "13101",
+    "name": "Uang Muka Wisuda",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "13102",
+    "name": "Uang Muka KKN",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "13103",
+    "name": "Uang Muka Sniter Nasional/Internasional",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "13104",
+    "name": "Uang Muka Pekerti / AA",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "13105",
+    "name": "Uang Muka Brevet",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "13106",
+    "name": "Uang Muka Kegiatan",
+    "type": "Account Receivable",
+    "level": 2
+  },
+  {
+    "acctNo": "14000",
+    "name": "Aset Lancar Lainnya",
+    "type": "Other Current Asset",
+    "level": 1
+  },
+  {
+    "acctNo": "14001",
+    "name": "Biaya Dibayar Dimuka",
+    "type": "Other Current Asset",
+    "level": 2
+  },
+  {
+    "acctNo": "14002",
+    "name": "Pajak Dibayar Dimuka PPH 4 Ayat 2",
+    "type": "Other Current Asset",
+    "level": 2
+  },
+  {
+    "acctNo": "15000",
+    "name": "Aset Tetap",
+    "type": "Fixed Asset",
+    "level": 1
+  },
+  {
+    "acctNo": "15001",
+    "name": "Pembelian Aktiva Tetap",
+    "type": "Fixed Asset",
+    "level": 2
+  },
+  {
+    "acctNo": "15002",
+    "name": "Aktiva Tidak Berwujud",
+    "type": "Fixed Asset",
+    "level": 2
+  },
+  {
+    "acctNo": "15003",
+    "name": "Tanah",
+    "type": "Fixed Asset",
+    "level": 2
+  },
+  {
+    "acctNo": "15004",
+    "name": "Bangunan",
+    "type": "Fixed Asset",
+    "level": 2
+  },
+  {
+    "acctNo": "15005",
+    "name": "Kendaraan",
+    "type": "Fixed Asset",
+    "level": 2
+  },
+  {
+    "acctNo": "16000",
+    "name": "Akumulasi Penyusutan",
+    "type": "Accumulated Depreciation",
+    "level": 1
+  },
+  {
+    "acctNo": "16001",
+    "name": "Akum Peny A.T",
+    "type": "Accumulated Depreciation",
+    "level": 2
+  },
+  {
+    "acctNo": "17000",
+    "name": "Aset Dalam Penyelesaian",
+    "type": "Other Asset",
+    "level": 1
+  },
+  {
+    "acctNo": "20000",
+    "name": "PDDM dan Hutang Titipan",
+    "type": "Account Payable",
+    "level": 1
+  },
+  {
+    "acctNo": "21000",
+    "name": "PDDM Mahasiswa",
+    "type": "Account Payable",
+    "level": 2
+  },
+  {
+    "acctNo": "21000.1.1",
+    "name": "PDDM Mahasiswa",
+    "type": "Account Payable",
+    "level": 3
+  },
+  {
+    "acctNo": "21002",
+    "name": "PDDM Genap 14-15-Mhsw Lama",
+    "type": "Account Payable",
+    "level": 4
+  },
+  {
+    "acctNo": "21003",
+    "name": "PDDM Gasal 15-16-Mhsw Lama",
+    "type": "Account Payable",
+    "level": 4
+  },
+  {
+    "acctNo": "21004",
+    "name": "PDDM Genap 15-16-Mhsw Lama",
+    "type": "Account Payable",
+    "level": 4
+  },
+  {
+    "acctNo": "21005",
+    "name": "PDDM Gasal 16-17-Mhsw Lama",
+    "type": "Account Payable",
+    "level": 4
+  },
+  {
+    "acctNo": "21006",
+    "name": "PDDM Genap 16-17-Mhsw Lama",
+    "type": "Account Payable",
+    "level": 4
+  },
+  {
+    "acctNo": "21007",
+    "name": "PDDM Mahasiswa-NN",
+    "type": "Account Payable",
+    "level": 4
+  },
+  {
+    "acctNo": "21008",
+    "name": "PDDM Calon Mahasiswa (16) - UPMB",
+    "type": "Account Payable",
+    "level": 4
+  },
+  {
+    "acctNo": "21009",
+    "name": "PDDM Calon Mahasiswa (16) - DU",
+    "type": "Account Payable",
+    "level": 4
+  },
+  {
+    "acctNo": "21010",
+    "name": "PDDM Calon Mahasiswa (16) - UK",
+    "type": "Account Payable",
+    "level": 4
+  },
+  {
+    "acctNo": "21011",
+    "name": "PDDM Calon Mahasiswa (16) - VA",
+    "type": "Account Payable",
+    "level": 4
+  },
+  {
+    "acctNo": "21012",
+    "name": "PDDM Calon Mahasiswa (16) - FORMULIR",
+    "type": "Account Payable",
+    "level": 4
+  },
+  {
+    "acctNo": "21013",
+    "name": "PDDM Calon Mahasiswa (16) - UG",
+    "type": "Account Payable",
+    "level": 4
+  },
+  {
+    "acctNo": "21014",
+    "name": "PDDM Calon Mahasiswa (16) - NN",
+    "type": "Account Payable",
+    "level": 4
+  },
+  {
+    "acctNo": "21036",
+    "name": "PDDM Calon Mahasiswa (17) - UPMB",
+    "type": "Account Payable",
+    "level": 4
+  },
+  {
+    "acctNo": "21037",
+    "name": "PDDM Calon Mahasiswa (17) - DU",
+    "type": "Account Payable",
+    "level": 4
+  },
+  {
+    "acctNo": "21038",
+    "name": "PDDM Calon Mahasiswa (17) - UK",
+    "type": "Account Payable",
+    "level": 4
+  },
+  {
+    "acctNo": "21039",
+    "name": "PDDM Calon Mahasiswa (17) - VA",
+    "type": "Account Payable",
+    "level": 4
+  },
+  {
+    "acctNo": "21040",
+    "name": "PDDM Calon Mahasiswa (17) - Formulir",
+    "type": "Account Payable",
+    "level": 4
+  },
+  {
+    "acctNo": "21041",
+    "name": "PDDM Calon Mahasiswa (17) - UG",
+    "type": "Account Payable",
+    "level": 4
+  },
+  {
+    "acctNo": "21042",
+    "name": "PDDM Calon Mahasiswa (17) - NN",
+    "type": "Account Payable",
+    "level": 4
+  },
+  {
+    "acctNo": "21047",
+    "name": "PDDM Calon Mahasiswa (18) - UPMB",
+    "type": "Account Payable",
+    "level": 4
+  },
+  {
+    "acctNo": "21048",
+    "name": "PDDM Calon Mahasiswa (18) - DU",
+    "type": "Account Payable",
+    "level": 4
+  },
+  {
+    "acctNo": "21049",
+    "name": "PDDM Calon Mahasiswa (18) - VA",
+    "type": "Account Payable",
+    "level": 4
+  },
+  {
+    "acctNo": "21050",
+    "name": "PDDM Calon Mahasiswa (18) - UG",
+    "type": "Account Payable",
+    "level": 4
+  },
+  {
+    "acctNo": "21051",
+    "name": "PDDM Calon Mahasiswa (18) - FORMULIR",
+    "type": "Account Payable",
+    "level": 4
+  },
+  {
+    "acctNo": "21052",
+    "name": "PDDM Calon Mahasiswa (18) - UK",
+    "type": "Account Payable",
+    "level": 4
+  },
+  {
+    "acctNo": "21056",
+    "name": "PDDM Calon Mahasiswa (19) - Formulir",
+    "type": "Account Payable",
+    "level": 4
+  },
+  {
+    "acctNo": "21057",
+    "name": "PDDM Calon Mahasiswa (19) - UPMB",
+    "type": "Account Payable",
+    "level": 4
+  },
+  {
+    "acctNo": "21058",
+    "name": "PDDM Calon Mahasiswa (19) - DU",
+    "type": "Account Payable",
+    "level": 4
+  },
+  {
+    "acctNo": "21059",
+    "name": "PDDM Calon Mahasiswa (19) - VA",
+    "type": "Account Payable",
+    "level": 4
+  },
+  {
+    "acctNo": "21060",
+    "name": "PDDM Calon Mahasiswa (19) - UK",
+    "type": "Account Payable",
+    "level": 4
+  },
+  {
+    "acctNo": "21061",
+    "name": "PDDM Calon Mahasiswa (19) - UG",
+    "type": "Account Payable",
+    "level": 4
+  },
+  {
+    "acctNo": "21064",
+    "name": "PDDM Calon Mahasiswa (20) - UPMB",
+    "type": "Account Payable",
+    "level": 4
+  },
+  {
+    "acctNo": "21065",
+    "name": "PDDM Calon Mahasiswa (20) - DU",
+    "type": "Account Payable",
+    "level": 4
+  },
+  {
+    "acctNo": "21066",
+    "name": "PDDM Calon Mahasiswa (20) - VA",
+    "type": "Account Payable",
+    "level": 4
+  },
+  {
+    "acctNo": "21067",
+    "name": "PDDM Calon Mahasiswa (20) - UG",
+    "type": "Account Payable",
+    "level": 4
+  },
+  {
+    "acctNo": "21068",
+    "name": "PDDM Calon Mahasiswa (20) - UK",
+    "type": "Account Payable",
+    "level": 4
+  },
+  {
+    "acctNo": "21069",
+    "name": "PDDM Calon Mahasiswa (20) - Formulir",
+    "type": "Account Payable",
+    "level": 4
+  },
+  {
+    "acctNo": "21000.1.1.1",
+    "name": "PDDM Mahasiswa",
+    "type": "Account Payable",
+    "level": 3
+  },
+  {
+    "acctNo": "22000",
+    "name": "PDDM Lain-Lain",
+    "type": "Account Payable",
+    "level": 2
+  },
+  {
+    "acctNo": "21034",
+    "name": "PDDM Sewa Kantin",
+    "type": "Account Payable",
+    "level": 3
+  },
+  {
+    "acctNo": "22001",
+    "name": "Pendapatan Diterima Dimuka-Sewa",
+    "type": "Account Payable",
+    "level": 3
+  },
+  {
+    "acctNo": "23000",
+    "name": "Hutang Titipan",
+    "type": "Account Payable",
+    "level": 2
+  },
+  {
+    "acctNo": "21001",
+    "name": "Hutang Kepada Yayasan UG 09-12",
+    "type": "Account Payable",
+    "level": 3
+  },
+  {
+    "acctNo": "21015",
+    "name": "Hutang Titipan UK di LN",
+    "type": "Account Payable",
+    "level": 3
+  },
+  {
+    "acctNo": "21016",
+    "name": "Hutang Titipan Mentawai",
+    "type": "Account Payable",
+    "level": 3
+  },
+  {
+    "acctNo": "21017",
+    "name": "Hutang Titipan Mahasiswa Lebih Bayar",
+    "type": "Account Payable",
+    "level": 3
+  },
+  {
+    "acctNo": "21018",
+    "name": "Hutang Titipan Sumbangan Jurusan",
+    "type": "Account Payable",
+    "level": 3
+  },
+  {
+    "acctNo": "21019",
+    "name": "Hutang Titipan Jamsostek",
+    "type": "Account Payable",
+    "level": 3
+  },
+  {
+    "acctNo": "21020",
+    "name": "Hutang DPLK (Manulife)",
+    "type": "Account Payable",
+    "level": 3
+  },
+  {
+    "acctNo": "21021",
+    "name": "Hutang Gaji",
+    "type": "Account Payable",
+    "level": 3
+  },
+  {
+    "acctNo": "21022",
+    "name": "Hutang Lain-Lain",
+    "type": "Account Payable",
+    "level": 3
+  },
+  {
+    "acctNo": "21022.1",
+    "name": "Hutang Lain-Lain",
+    "type": "Account Payable",
+    "level": 4
+  },
+  {
+    "acctNo": "21032",
+    "name": "Biaya Harus Dibayar",
+    "type": "Account Payable",
+    "level": 4
+  },
+  {
+    "acctNo": "21045",
+    "name": "Hutang PPh Pasal 21",
+    "type": "Account Payable",
+    "level": 4
+  },
+  {
+    "acctNo": "21062",
+    "name": "Hutang PPh Pasal 23",
+    "type": "Account Payable",
+    "level": 4
+  },
+  {
+    "acctNo": "21063",
+    "name": "Hutang PPh Pasal 4 Ayat 2",
+    "type": "Account Payable",
+    "level": 4
+  },
+  {
+    "acctNo": "21070",
+    "name": "Hutang Pembelian",
+    "type": "Account Payable",
+    "level": 4
+  },
+  {
+    "acctNo": "21023",
+    "name": "Hutang Titipan PPh Pasal 21",
+    "type": "Account Payable",
+    "level": 3
+  },
+  {
+    "acctNo": "21024",
+    "name": "Hutang Titipan PPh Pasal 23",
+    "type": "Account Payable",
+    "level": 3
+  },
+  {
+    "acctNo": "21025",
+    "name": "Hutang Titipan Dana Beasiswa",
+    "type": "Account Payable",
+    "level": 3
+  },
+  {
+    "acctNo": "21026",
+    "name": "Hutang Titipan Dana Penelitian",
+    "type": "Account Payable",
+    "level": 3
+  },
+  {
+    "acctNo": "21027",
+    "name": "Hutang Titipan Koperasi",
+    "type": "Account Payable",
+    "level": 3
+  },
+  {
+    "acctNo": "21028",
+    "name": "Hutang Titipan Hibah Pemerintah",
+    "type": "Account Payable",
+    "level": 3
+  },
+  {
+    "acctNo": "21029",
+    "name": "Hutang Titipan Pot Asuransi Jiwa + DPLK",
+    "type": "Account Payable",
+    "level": 3
+  },
+  {
+    "acctNo": "21030",
+    "name": "Hutang Titipan BPJS",
+    "type": "Account Payable",
+    "level": 3
+  },
+  {
+    "acctNo": "21031",
+    "name": "Hutang Titipan Lain-Lain",
+    "type": "Account Payable",
+    "level": 3
+  },
+  {
+    "acctNo": "21033",
+    "name": "Hutang Titipan Potongan Arisan",
+    "type": "Account Payable",
+    "level": 3
+  },
+  {
+    "acctNo": "21035",
+    "name": "Titipan Wisuda",
+    "type": "Account Payable",
+    "level": 3
+  },
+  {
+    "acctNo": "21043",
+    "name": "Hutang Titipan Dana Sosial Kemasyarakatan",
+    "type": "Account Payable",
+    "level": 3
+  },
+  {
+    "acctNo": "21044",
+    "name": "Hutang Titipan Mentawai Lain-Lain",
+    "type": "Account Payable",
+    "level": 3
+  },
+  {
+    "acctNo": "21046",
+    "name": "Hutang Titipan Kegiatan Bersama",
+    "type": "Account Payable",
+    "level": 3
+  },
+  {
+    "acctNo": "21053",
+    "name": "Hutang Titipan Pembangunan Rumah Native",
+    "type": "Account Payable",
+    "level": 3
+  },
+  {
+    "acctNo": "21054",
+    "name": "Hutang Titipan Kursus Prodi",
+    "type": "Account Payable",
+    "level": 3
+  },
+  {
+    "acctNo": "21055",
+    "name": "Hutang Titipan Pekerti/Sniter",
+    "type": "Account Payable",
+    "level": 3
+  },
+  {
+    "acctNo": "21071",
+    "name": "Hutang Titipan Donasi",
+    "type": "Account Payable",
+    "level": 3
+  },
+  {
+    "acctNo": "21072",
+    "name": "Hutang Titipan Hibah Lain-lain",
+    "type": "Account Payable",
+    "level": 3
+  },
+  {
+    "acctNo": "21073",
+    "name": "Hutang Yayasan",
+    "type": "Account Payable",
+    "level": 3
+  },
+  {
+    "acctNo": "24000",
+    "name": "Cadangan Imbalan Pasca Kerja",
+    "type": "Account Payable",
+    "level": 2
+  },
+  {
+    "acctNo": "24001",
+    "name": "Cadangan THR Edukatif",
+    "type": "Account Payable",
+    "level": 3
+  },
+  {
+    "acctNo": "24002",
+    "name": "Cadangan THR Non Edukatif",
+    "type": "Account Payable",
+    "level": 3
+  },
+  {
+    "acctNo": "24003",
+    "name": "Cadangan Pensiun",
+    "type": "Account Payable",
+    "level": 3
+  },
+  {
+    "acctNo": "210102",
+    "name": "Account Payable RMB",
+    "type": "Account Payable",
+    "level": 1
+  },
+  {
+    "acctNo": "210202",
+    "name": "Advance Sales RMB",
+    "type": "Account Payable",
+    "level": 1
+  },
+  {
+    "acctNo": "21100",
+    "name": "Pendapatan Diterima Dimuka Mahasiswa",
+    "type": "Account Payable",
+    "level": 1
+  },
+  {
+    "acctNo": "21101",
+    "name": "PDM MABA UPMB 21-22",
+    "type": "Account Payable",
+    "level": 2
+  },
+  {
+    "acctNo": "21102",
+    "name": "PDM MABA DU 21-22",
+    "type": "Account Payable",
+    "level": 2
+  },
+  {
+    "acctNo": "21103",
+    "name": "PDM MABA VA 21-22",
+    "type": "Account Payable",
+    "level": 2
+  },
+  {
+    "acctNo": "21104",
+    "name": "PDM MABA UG 21-22",
+    "type": "Account Payable",
+    "level": 2
+  },
+  {
+    "acctNo": "21105",
+    "name": "PDM MABA UK  21-22",
+    "type": "Account Payable",
+    "level": 2
+  },
+  {
+    "acctNo": "21106",
+    "name": "PDM MABA Formulir 21-22",
+    "type": "Account Payable",
+    "level": 2
+  },
+  {
+    "acctNo": "21107",
+    "name": "PDM Mahasiswa Genap 20-21",
+    "type": "Account Payable",
+    "level": 2
+  },
+  {
+    "acctNo": "21108",
+    "name": "PDM Mahasiswa",
+    "type": "Account Payable",
+    "level": 2
+  },
+  {
+    "acctNo": "21109",
+    "name": "PDM MABA UPMB 22-23",
+    "type": "Account Payable",
+    "level": 2
+  },
+  {
+    "acctNo": "21110",
+    "name": "PDM MABA DU 22-23",
+    "type": "Account Payable",
+    "level": 2
+  },
+  {
+    "acctNo": "21111",
+    "name": "PDM MABA VA 22-23",
+    "type": "Account Payable",
+    "level": 2
+  },
+  {
+    "acctNo": "21112",
+    "name": "PDM MABA Formulir  22-23",
+    "type": "Account Payable",
+    "level": 2
+  },
+  {
+    "acctNo": "21113",
+    "name": "PDM MABA UG 22-23",
+    "type": "Account Payable",
+    "level": 2
+  },
+  {
+    "acctNo": "21114",
+    "name": "PDM MABA Formulir 23-24",
+    "type": "Account Payable",
+    "level": 2
+  },
+  {
+    "acctNo": "21115",
+    "name": "PDM MABA UPMB 23-24",
+    "type": "Account Payable",
+    "level": 2
+  },
+  {
+    "acctNo": "21116",
+    "name": "PDM MABA DU 23-24",
+    "type": "Account Payable",
+    "level": 2
+  },
+  {
+    "acctNo": "21117",
+    "name": "PDM MABA VA 23-24",
+    "type": "Account Payable",
+    "level": 2
+  },
+  {
+    "acctNo": "21118",
+    "name": "PDM MABA UG 23-24",
+    "type": "Account Payable",
+    "level": 2
+  },
+  {
+    "acctNo": "21119",
+    "name": "PDM MABA UK 23-24",
+    "type": "Account Payable",
+    "level": 2
+  },
+  {
+    "acctNo": "21120",
+    "name": "PDM MABA Formulir 24-25",
+    "type": "Account Payable",
+    "level": 2
+  },
+  {
+    "acctNo": "21121",
+    "name": "PDM MABA UPMB 24-25",
+    "type": "Account Payable",
+    "level": 2
+  },
+  {
+    "acctNo": "21122",
+    "name": "PDM MABA DU 24-25",
+    "type": "Account Payable",
+    "level": 2
+  },
+  {
+    "acctNo": "21123",
+    "name": "PDM MABA VA 24-25",
+    "type": "Account Payable",
+    "level": 2
+  },
+  {
+    "acctNo": "21124",
+    "name": "PDM MABA UG 24-25",
+    "type": "Account Payable",
+    "level": 2
+  },
+  {
+    "acctNo": "21125",
+    "name": "PDM MABA UK 24-25",
+    "type": "Account Payable",
+    "level": 2
+  },
+  {
+    "acctNo": "21126",
+    "name": "PDM MABA Formulir 25-26",
+    "type": "Account Payable",
+    "level": 2
+  },
+  {
+    "acctNo": "21127",
+    "name": "PDM MABA UPMB 25-26",
+    "type": "Account Payable",
+    "level": 2
+  },
+  {
+    "acctNo": "21128",
+    "name": "PDM MABA DU 25-26",
+    "type": "Account Payable",
+    "level": 2
+  },
+  {
+    "acctNo": "21129",
+    "name": "PDM MABA VA 25-26",
+    "type": "Account Payable",
+    "level": 2
+  },
+  {
+    "acctNo": "21130",
+    "name": "PDM MABA UG 25-26",
+    "type": "Account Payable",
+    "level": 2
+  },
+  {
+    "acctNo": "21131",
+    "name": "PDM MABA UK 25-26",
+    "type": "Account Payable",
+    "level": 2
+  },
+  {
+    "acctNo": "21132",
+    "name": "PDM MABA Formulir 26-27",
+    "type": "Account Payable",
+    "level": 2
+  },
+  {
+    "acctNo": "21133",
+    "name": "PDM MABA UPMB 26-27",
+    "type": "Account Payable",
+    "level": 2
+  },
+  {
+    "acctNo": "21134",
+    "name": "PDM MABA DU 26-27",
+    "type": "Account Payable",
+    "level": 2
+  },
+  {
+    "acctNo": "21135",
+    "name": "PDM MABA VA 26-27",
+    "type": "Account Payable",
+    "level": 2
+  },
+  {
+    "acctNo": "21136",
+    "name": "PDM MABA UG 26-27",
+    "type": "Account Payable",
+    "level": 2
+  },
+  {
+    "acctNo": "21137",
+    "name": "PDM MABA UK 26-27",
+    "type": "Account Payable",
+    "level": 2
+  },
+  {
+    "acctNo": "21200",
+    "name": "Hutang Titipan Operasional Fakultas",
+    "type": "Account Payable",
+    "level": 1
+  },
+  {
+    "acctNo": "21201",
+    "name": "Hutang Titipan Ops. FE",
+    "type": "Account Payable",
+    "level": 2
+  },
+  {
+    "acctNo": "21202",
+    "name": "Hutang Titipan Ops. FT",
+    "type": "Account Payable",
+    "level": 2
+  },
+  {
+    "acctNo": "21203",
+    "name": "Hutang Titipan Ops. FSPB",
+    "type": "Account Payable",
+    "level": 2
+  },
+  {
+    "acctNo": "21300",
+    "name": "Liabilitas Imbalan Kerja",
+    "type": "Long Term Liability",
+    "level": 1
+  },
+  {
+    "acctNo": "21301",
+    "name": "Liabilitas Imbalan Kerja - Pegawai Tetap",
+    "type": "Long Term Liability",
+    "level": 2
+  },
+  {
+    "acctNo": "21302",
+    "name": "Liabilitas Imbalan Kerja - PKWT",
+    "type": "Long Term Liability",
+    "level": 2
+  },
+  {
+    "acctNo": "30000",
+    "name": "Ekuitas",
+    "type": "Equity",
+    "level": 1
+  },
+  {
+    "acctNo": "31001",
+    "name": "Modal Awal Yayasan",
+    "type": "Equity",
+    "level": 2
+  },
+  {
+    "acctNo": "31002",
+    "name": "Aset Tidak Terikat",
+    "type": "Equity",
+    "level": 2
+  },
+  {
+    "acctNo": "31003",
+    "name": "Aset Tidak Terikat-Juli-Des 13",
+    "type": "Equity",
+    "level": 2
+  },
+  {
+    "acctNo": "31004",
+    "name": "Aset Tidak Terikat-Jan-Juni 14",
+    "type": "Equity",
+    "level": 2
+  },
+  {
+    "acctNo": "31005",
+    "name": "Aset Tidak Terikat-Juli-Des 14",
+    "type": "Equity",
+    "level": 2
+  },
+  {
+    "acctNo": "31006",
+    "name": "Aset Tidak Terikat-Jan-Juni 15",
+    "type": "Equity",
+    "level": 2
+  },
+  {
+    "acctNo": "31007",
+    "name": "Aset Tidak Terikat-Juli-Des 15",
+    "type": "Equity",
+    "level": 2
+  },
+  {
+    "acctNo": "31008",
+    "name": "Aset Tidak Terikat-Jan-Juni 16",
+    "type": "Equity",
+    "level": 2
+  },
+  {
+    "acctNo": "31009",
+    "name": "Aset Tidak Terikat-Juli-Des 16",
+    "type": "Equity",
+    "level": 2
+  },
+  {
+    "acctNo": "31010",
+    "name": "Subsidi Operasional",
+    "type": "Equity",
+    "level": 2
+  },
+  {
+    "acctNo": "31011",
+    "name": "Subsidi Pembelian Aktiva Tetap",
+    "type": "Equity",
+    "level": 2
+  },
+  {
+    "acctNo": "31012",
+    "name": "Donasi Pembangunan Rumah Native",
+    "type": "Equity",
+    "level": 2
+  },
+  {
+    "acctNo": "31013",
+    "name": "Donasi Perkembangan Mandarin",
+    "type": "Equity",
+    "level": 2
+  },
+  {
+    "acctNo": "310001",
+    "name": "OPENING BALANCE EQUITY",
+    "type": "Equity",
+    "level": 1
+  },
+  {
+    "acctNo": "320001",
+    "name": "RETAINED EARNING",
+    "type": "Equity",
+    "level": 1
+  },
+  {
+    "acctNo": "41000",
+    "name": "Pendapatan Mahasiswa",
+    "type": "Revenue",
+    "level": 1
+  },
+  {
+    "acctNo": "41001",
+    "name": "Pendapatan Uang Kuliah Mahasiswa",
+    "type": "Revenue",
+    "level": 2
+  },
+  {
+    "acctNo": "41002",
+    "name": "Pendapatan Daftar Ulang",
+    "type": "Revenue",
+    "level": 2
+  },
+  {
+    "acctNo": "41003",
+    "name": "Pendapatan Uang Gedung",
+    "type": "Revenue",
+    "level": 2
+  },
+  {
+    "acctNo": "41004",
+    "name": "Pendapatan DN-LN",
+    "type": "Revenue",
+    "level": 2
+  },
+  {
+    "acctNo": "410104",
+    "name": "Sales Term Discount RMB",
+    "type": "Revenue",
+    "level": 1
+  },
+  {
+    "acctNo": "42000",
+    "name": "Pendapatan Lain Mahasiswa",
+    "type": "Revenue",
+    "level": 1
+  },
+  {
+    "acctNo": "42001",
+    "name": "Denda Mahasiswa",
+    "type": "Revenue",
+    "level": 2
+  },
+  {
+    "acctNo": "42002",
+    "name": "Pendapatan UPMB",
+    "type": "Revenue",
+    "level": 2
+  },
+  {
+    "acctNo": "42003",
+    "name": "Pendapatan Denda Perpustakaan",
+    "type": "Revenue",
+    "level": 2
+  },
+  {
+    "acctNo": "42004",
+    "name": "Pendapatan Semester Pendek",
+    "type": "Revenue",
+    "level": 2
+  },
+  {
+    "acctNo": "42005",
+    "name": "Pendapatan Sidang / Sidang Ulang TA",
+    "type": "Revenue",
+    "level": 2
+  },
+  {
+    "acctNo": "42006",
+    "name": "Pendapatan Sertifikasi",
+    "type": "Revenue",
+    "level": 2
+  },
+  {
+    "acctNo": "42007",
+    "name": "Pendapatan Skripsi",
+    "type": "Revenue",
+    "level": 2
+  },
+  {
+    "acctNo": "42008",
+    "name": "Pendapatan KKN",
+    "type": "Revenue",
+    "level": 2
+  },
+  {
+    "acctNo": "42009",
+    "name": "Pendapatan Wisuda",
+    "type": "Revenue",
+    "level": 2
+  },
+  {
+    "acctNo": "42010",
+    "name": "Pendapatan KHS / KRS/ Translate",
+    "type": "Revenue",
+    "level": 2
+  },
+  {
+    "acctNo": "42011",
+    "name": "Pendapatan TOEFL / TOEIC",
+    "type": "Revenue",
+    "level": 2
+  },
+  {
+    "acctNo": "42012",
+    "name": "Pendapatan Virtual Account",
+    "type": "Revenue",
+    "level": 2
+  },
+  {
+    "acctNo": "42013",
+    "name": "Pendapatan Matrikulasi",
+    "type": "Revenue",
+    "level": 2
+  },
+  {
+    "acctNo": "42014",
+    "name": "Pendapatan Mahasiswa Lama",
+    "type": "Revenue",
+    "level": 2
+  },
+  {
+    "acctNo": "42015",
+    "name": "Pendapatan Kemahasiswaan",
+    "type": "Revenue",
+    "level": 2
+  },
+  {
+    "acctNo": "42016",
+    "name": "Pendapatan Alih Studi",
+    "type": "Revenue",
+    "level": 2
+  },
+  {
+    "acctNo": "42017",
+    "name": "Pendapatan Modul/ Buku Ajar",
+    "type": "Revenue",
+    "level": 2
+  },
+  {
+    "acctNo": "43000",
+    "name": "Pendapatan Lain-Lain",
+    "type": "Revenue",
+    "level": 1
+  },
+  {
+    "acctNo": "43001",
+    "name": "Pendapatan EDC",
+    "type": "Revenue",
+    "level": 2
+  },
+  {
+    "acctNo": "43002",
+    "name": "Pendapatan Formulir",
+    "type": "Revenue",
+    "level": 2
+  },
+  {
+    "acctNo": "43003",
+    "name": "Pendapatan Bunga dan Deposito",
+    "type": "Revenue",
+    "level": 2
+  },
+  {
+    "acctNo": "43004",
+    "name": "Pendapatan Sanksi Kerja",
+    "type": "Revenue",
+    "level": 2
+  },
+  {
+    "acctNo": "43005",
+    "name": "Pendapatan Sewa",
+    "type": "Revenue",
+    "level": 2
+  },
+  {
+    "acctNo": "43006",
+    "name": "Pendapatan Parkir",
+    "type": "Revenue",
+    "level": 2
+  },
+  {
+    "acctNo": "43007",
+    "name": "Pendapatan Sanksi Magang",
+    "type": "Revenue",
+    "level": 2
+  },
+  {
+    "acctNo": "43008",
+    "name": "Pendapatan Lain-Lain",
+    "type": "Revenue",
+    "level": 2
+  },
+  {
+    "acctNo": "44000",
+    "name": "Pendapatan Usaha Lain",
+    "type": "Revenue",
+    "level": 1
+  },
+  {
+    "acctNo": "44001",
+    "name": "Pendapatan Kursus Bahasa Inggris",
+    "type": "Revenue",
+    "level": 2
+  },
+  {
+    "acctNo": "44002",
+    "name": "Pendapatan Kursus Bahasa Mandarin",
+    "type": "Revenue",
+    "level": 2
+  },
+  {
+    "acctNo": "44003",
+    "name": "Pendapatan Kursus Prodi",
+    "type": "Revenue",
+    "level": 2
+  },
+  {
+    "acctNo": "45000",
+    "name": "Penerimaan Hibah",
+    "type": "Revenue",
+    "level": 1
+  },
+  {
+    "acctNo": "45001",
+    "name": "Penerimaan Hibah",
+    "type": "Revenue",
+    "level": 2
+  },
+  {
+    "acctNo": "51110",
+    "name": "Beban Gaji",
+    "type": "Expense",
+    "level": 1
+  },
+  {
+    "acctNo": "511101",
+    "name": "Gaji Pokok Dosen Tetap & THR",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "511102",
+    "name": "Gaji Pokok Non Edukatif & THR",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "511103",
+    "name": "Gaji Dosen LB-Pagi",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "511104",
+    "name": "Gaji Dosen LB-Malam",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "511105",
+    "name": "Insentif Dosen Tetap",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "511106",
+    "name": "Insentif  Non Edukatif",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "511107",
+    "name": "Gaji Semester Pendek",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "511108",
+    "name": "Gaji Native",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "511109",
+    "name": "Gaji Outsourcing",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "511110",
+    "name": "Gaji Kerjasama",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "511111",
+    "name": "Gaji Sertifikasi",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "51120",
+    "name": "Beban Akademik-Operasional",
+    "type": "Expense",
+    "level": 1
+  },
+  {
+    "acctNo": "511201",
+    "name": "Perpustakaan / Buku / Majalah",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "511202",
+    "name": "Raker / Rapat",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "511203",
+    "name": "Administrasi Pendidikan / Perkuliahan / FC / Jilid / Cetak",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "511204",
+    "name": "Program Jurusan / Rektorat",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "511205",
+    "name": "Akreditasi (Jurusan)",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "511206",
+    "name": "Peralatan / Alat Peraga",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "511207",
+    "name": "Laboratorium / Pengelolaan Laboratorium",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "511208",
+    "name": "Iuran Aptisi / Keanggotaan",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "511209",
+    "name": "Lain-Lain Akademik",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "511210",
+    "name": "Seminar / Pelatihan / Studium Generalle",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "511211",
+    "name": "Beban Pendampingan PHP-PTS",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "511212",
+    "name": "Perlengkapan Pengajaran / ATK Pengajaran",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "511213",
+    "name": "Penulisan Buku / Pemakalah",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "511214",
+    "name": "Biaya Internet",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "511215",
+    "name": "Pengabdian Masyarakat",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "511216",
+    "name": "Biaya Penelitian",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "511217",
+    "name": "Campus Agreement / MOU Prodi",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "511218",
+    "name": "Beban Kegiatan Wisuda",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "511219",
+    "name": "Beban Kegiatan Sertifikasi",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "511220",
+    "name": "Beban Kegiatan KKN",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "511221",
+    "name": "Beban Kegiatan Ekskursi / Studi Tour",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "511222",
+    "name": "Beban Kegiatan UPMB / PEMBA",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "511223",
+    "name": "Beban Kegiatan Semester Pendek",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "511224",
+    "name": "Beban Honor Asisten Dosen",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "511225",
+    "name": "Beban Visa / Ijin & Lain Native",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "511226",
+    "name": "Beban Kegiatan UAS / UTS",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "511227",
+    "name": "Beban Kegiatan Sidang KP",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "511228",
+    "name": "Beban Kegiatan Alumni",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "511229",
+    "name": "Beban Kegiatan Sidang / Sidang Ulang TA",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "511230",
+    "name": "Beban Kegiatan Psikotest",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "511231",
+    "name": "Beban Kegiatan Pembuatan KTM",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "511232",
+    "name": "Beban Kegiatan ORMAWA",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "511233",
+    "name": "Beban Kegiatan Pembuatan Modul",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "511234",
+    "name": "Beban Kegiatan Lomba / Event",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "511235",
+    "name": "Beban Kegiatan Konsumsi Probis",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "511236",
+    "name": "Penghargaan / Tropi / Plakat",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "511237",
+    "name": "Beban Kegiatan Beasiswa",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "511238",
+    "name": "Beban Matrikulasi",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "511239",
+    "name": "Beban Kegiatan TOEFL / TOIEC",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "511240",
+    "name": "Beban Studi Lanjut",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "511242",
+    "name": "Beban Perjalanan Dinas",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "511243",
+    "name": "Beban Kerjasama",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "51130",
+    "name": "Beban Kantor Umum",
+    "type": "Expense",
+    "level": 1
+  },
+  {
+    "acctNo": "511301",
+    "name": "ATK & Benda Pos",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "511302",
+    "name": "PDAM",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "511303",
+    "name": "PLN / Listrik",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "511304",
+    "name": "Telepon / Pulsa",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "511305",
+    "name": "Koran",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "511306",
+    "name": "Sumbangan / Pernikahan / Uang Duka",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "511307",
+    "name": "Iuran RT",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "511308",
+    "name": "Konsumsi",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "511309",
+    "name": "BBM / Tol / Parkir / Ekspedisi / Transport",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "511310",
+    "name": "Fotocopy Unit / Cetak / Jilid",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "511311",
+    "name": "Jasa Konsultan",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "511312",
+    "name": "Kegiatan Hari Besar / Parcel",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "511313",
+    "name": "Peralatan Kantor / RT",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "511314",
+    "name": "Lain-Lain Non Akademik",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "511315",
+    "name": "Entertainment",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "511316",
+    "name": "Administrasi Bank",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "511317",
+    "name": "Sewa tanah / PBB",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "511318",
+    "name": "Kesejahteraan Karyawan / Kegiatan Bersama",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "511319",
+    "name": "Iklan Lowongan Kerja",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "511320",
+    "name": "Beban Pajak",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "511321",
+    "name": "HUT YPPI / Dies Natalis Uwika",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "511325",
+    "name": "Beban PPH 4 Ayat 2",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "51140",
+    "name": "Beban Pemeliharaan",
+    "type": "Expense",
+    "level": 1
+  },
+  {
+    "acctNo": "511401",
+    "name": "Pemeliharaan Bangunan",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "511402",
+    "name": "Pemeliharaan Peralatan",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "511403",
+    "name": "Pemeliharaan Kendaraan",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "511404",
+    "name": "Pemeliharaan Kebersihan",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "51150",
+    "name": "Beban Marketing",
+    "type": "Expense",
+    "level": 1
+  },
+  {
+    "acctNo": "511501",
+    "name": "Program PMB / Marketing (Tahun Berjalan)",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "511502",
+    "name": "Beban Cetak / Souvenir Marketing",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "51160",
+    "name": "Beban Asuransi",
+    "type": "Expense",
+    "level": 1
+  },
+  {
+    "acctNo": "511601",
+    "name": "BPJS Tenaga Kerja",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "511602",
+    "name": "BPJS Kesehatan",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "511603",
+    "name": "DPLK & Manulife",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "51170",
+    "name": "Beban Penghapusan Piutang Mahasiswa",
+    "type": "Expense",
+    "level": 1
+  },
+  {
+    "acctNo": "511701",
+    "name": "Penghapusan Piutang Mahasiswa / Karyawan",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "51180",
+    "name": "Beban Kursus Usaha Lain",
+    "type": "Expense",
+    "level": 1
+  },
+  {
+    "acctNo": "511801",
+    "name": "Gaji Kursus Usaha Lain",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "511802",
+    "name": "Beban Kursus Usaha Lain",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "51190",
+    "name": "Beban Imbalan Pasca Kerja",
+    "type": "Expense",
+    "level": 1
+  },
+  {
+    "acctNo": "511901",
+    "name": "Beban Imbalan Pasca Kerja",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "51191",
+    "name": "Beban Cadangan Pensiun & THR",
+    "type": "Expense",
+    "level": 1
+  },
+  {
+    "acctNo": "511911",
+    "name": "Beban Cadangan Pensiun",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "511912",
+    "name": "Beban Cadangan THR Edukatif",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "511913",
+    "name": "Beban Cadangan THR Non Edukatif",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "51210",
+    "name": "Beban Penyusutan",
+    "type": "Expense",
+    "level": 1
+  },
+  {
+    "acctNo": "512101",
+    "name": "Beban Penyusutan Inventaris",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "64000",
+    "name": "Selisih Kurs",
+    "type": "Expense",
+    "level": 1
+  },
+  {
+    "acctNo": "71000",
+    "name": "Beban Lain-lain",
+    "type": "Other Expense",
+    "level": 1
+  },
+  {
+    "acctNo": "710001",
+    "name": "Beban Lain-lain",
+    "type": "Other Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "711000",
+    "name": "Pengeluaran Hibah",
+    "type": "Expense",
+    "level": 1
+  },
+  {
+    "acctNo": "711001",
+    "name": "Pengeluaran Hibah",
+    "type": "Expense",
+    "level": 2
+  },
+  {
+    "acctNo": "81001",
+    "name": "Hutang Lain Yuan",
+    "type": "Account Payable",
+    "level": 1
+  },
+  {
+    "acctNo": "81002",
+    "name": "Piutang Lain Yuan",
+    "type": "Account Receivable",
+    "level": 1
+  },
+  {
+    "acctNo": "81003",
+    "name": "Biaya Harus Dibayar Yuan",
+    "type": "Account Payable",
+    "level": 1
+  },
+  {
+    "acctNo": "81004",
+    "name": "Pendapatan yang akan diterima Yuan",
+    "type": "Account Receivable",
+    "level": 1
+  },
+  {
+    "acctNo": "81005",
+    "name": "Non-Lain lain",
+    "type": "Inventory",
+    "level": 1
+  },
+  {
+    "acctNo": "81006",
+    "name": "Non-Lain lain",
+    "type": "Cost of Goods Sold",
+    "level": 1
+  },
+  {
+    "acctNo": "81007",
+    "name": "Non-Lain",
+    "type": "Other Current Liability",
+    "level": 1
+  },
+  {
+    "acctNo": "910002",
+    "name": "Realize Gain or Loss RMB",
+    "type": "Expense",
+    "level": 1
+  },
+  {
+    "acctNo": "910003",
+    "name": "Unrealize Gain or Loss RMB",
+    "type": "Expense",
+    "level": 1
+  }
+]

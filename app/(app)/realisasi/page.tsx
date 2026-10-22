@@ -3,10 +3,18 @@ import { useState, useEffect } from 'react'
 import { createClient } from '@/lib/supabase/client'
 import { formatRupiah, BULAN_NAMES } from '@/lib/utils'
 
-interface Unit { id: string; kode: string; nama: string }
+interface Unit {
+    id: string
+    kode: string
+    nama: string
+    department_no?: string
+    name?: string
+    category?: string
+    status?: string
+}
 interface Coa { id: string; nama_akun: string; tipe_akun: string }
 interface Bank { id: string; nama_rekening: string; kode_sistem: string }
-interface RealisasiItem { id: string; unit_id: string; coa_id: string; bank_account_id: string | null; bulan: number; tahun: number; jenis: string; keterangan: string | null; jumlah: number; master_unit: { kode: string; nama: string } | null; coa_accounts: { id: string; nama_akun: string } | null; bank_accounts: { nama_rekening: string } | null; pengajuan: { judul: string } | null }
+interface RealisasiItem { id: string; unit_id: string; coa_id: string; bank_account_id: string | null; bulan: number; tahun: number; jenis: string; keterangan: string | null; jumlah: number; master_unit: { kode: string; nama: string; department_no?: string; name?: string; category?: string } | null; coa_accounts: { id: string; nama_akun: string } | null; bank_accounts: { nama_rekening: string } | null; pengajuan: { judul: string } | null }
 
 export default function RealisasiPage() {
     const supabase = createClient()
@@ -69,7 +77,7 @@ export default function RealisasiPage() {
                 <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap', alignItems: 'flex-end' }}>
                     <div><label className="form-label">Bulan</label><select className="form-input" style={{ width: '150px' }} value={fBulan} onChange={e => setFBulan(Number(e.target.value))}>{BULAN_NAMES.slice(1).map((b, i) => <option key={i + 1} value={i + 1}>{b}</option>)}</select></div>
                     <div><label className="form-label">Tahun</label><select className="form-input" style={{ width: '120px' }} value={fTahun} onChange={e => setFTahun(Number(e.target.value))}>{[2024, 2025, 2026, 2027].map(y => <option key={y} value={y}>{y}</option>)}</select></div>
-                    <div><label className="form-label">Unit</label><select className="form-input" style={{ width: '220px' }} value={fUnit} onChange={e => setFUnit(e.target.value)}><option value="">Semua</option>{units.map(u => <option key={u.id} value={u.id}>{u.nama}</option>)}</select></div>
+                    <div><label className="form-label">Unit</label><select className="form-input" style={{ width: '260px' }} value={fUnit} onChange={e => setFUnit(e.target.value)}><option value="">Semua Unit/Prodi</option>{units.map(u => <option key={u.id} value={u.id}>[{u.category === 'prodi' ? 'Prodi' : 'Unit'}] {u.name || u.nama} ({u.department_no || u.kode})</option>)}</select></div>
                 </div>
             </div>
 
@@ -114,7 +122,7 @@ export default function RealisasiPage() {
                         <div style={{ padding: '24px' }}>
                             {msg.x && <div className={`alert ${msg.t === 'e' ? 'alert-danger' : 'alert-success'}`}><span>{msg.t === 'e' ? '⚠️' : '✅'}</span><span style={{ fontSize: '13px' }}>{msg.x}</span></div>}
                             <form onSubmit={handleCreate}>
-                                <div className="form-group"><label className="form-label">Unit *</label><select className="form-input" value={form.unit_id} onChange={e => setForm(f => ({ ...f, unit_id: e.target.value }))} required><option value="">Pilih</option>{units.map(u => <option key={u.id} value={u.id}>{u.nama}</option>)}</select></div>
+                                <div className="form-group"><label className="form-label">Unit *</label><select className="form-input" value={form.unit_id} onChange={e => setForm(f => ({ ...f, unit_id: e.target.value }))} required><option value="">Pilih Unit / Prodi</option>{units.map(u => <option key={u.id} value={u.id}>[{u.category === 'prodi' ? 'Prodi' : 'Unit'}] {u.name || u.nama} ({u.department_no || u.kode})</option>)}</select></div>
                                 <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '12px' }}>
                                     <div className="form-group"><label className="form-label">Bulan *</label><select className="form-input" value={form.bulan} onChange={e => setForm(f => ({ ...f, bulan: Number(e.target.value) }))}>{BULAN_NAMES.slice(1).map((b, i) => <option key={i + 1} value={i + 1}>{b}</option>)}</select></div>
                                     <div className="form-group"><label className="form-label">Tahun *</label><select className="form-input" value={form.tahun} onChange={e => setForm(f => ({ ...f, tahun: Number(e.target.value) }))}>{[2024, 2025, 2026, 2027].map(y => <option key={y} value={y}>{y}</option>)}</select></div>

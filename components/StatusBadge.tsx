@@ -27,7 +27,7 @@ export function StatusBadge({ status, size = 'md' }: StatusBadgeProps) {
 }
 
 function StatusIndicator({ status }: { status: AnggaranStatus }) {
-    const colors: Record<AnggaranStatus, string> = {
+    const colors: Partial<Record<AnggaranStatus, string>> = {
         draft: '#6b7280',
         pending_kepala: '#1d4ed8',
         revision_kepala: '#d97706',
@@ -39,7 +39,7 @@ function StatusIndicator({ status }: { status: AnggaranStatus }) {
         rejected: '#dc2626',
     }
 
-    const bgColors: Record<AnggaranStatus, string> = {
+    const bgColors: Partial<Record<AnggaranStatus, string>> = {
         draft: '#f3f4f6',
         pending_kepala: '#dbeafe',
         revision_kepala: '#fef3c7',

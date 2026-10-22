@@ -18,7 +18,7 @@ export async function GET(request: Request) {
         if (tahun) query = query.eq('tahun_anggaran', parseInt(tahun))
         if (unit_id) query = query.eq('unit_id', unit_id)
         if (kategori) query = query.eq('kategori', kategori)
-        if (bulan && bulan !== '0') query = query.eq('bulan', parseInt(bulan))
+        if (bulan && bulan !== '0') query = query.or(`bulan.eq.${parseInt(bulan)},bulan.eq.0`)
 
         const { data, error } = await query
         if (error) return NextResponse.json({ error: error.message }, { status: 500 })

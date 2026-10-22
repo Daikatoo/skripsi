@@ -49,6 +49,26 @@ const NAV: Record<string, Array<{ href: string; label: string; icon: string }>> 
     { href: '/riwayat', label: 'Semua Pengajuan', icon: '🗂️' },
     { href: '/password', label: 'Ganti Password', icon: '🔑' },
   ],
+  dekan: [
+    { href: '/dashboard', label: 'Dashboard', icon: '📊' },
+    { href: '/pengajuan', label: 'RAPB Bulanan', icon: '📝' },
+    { href: '/password', label: 'Ganti Password', icon: '🔑' },
+  ],
+  wakil_rektor_1: [
+    { href: '/dashboard', label: 'Dashboard', icon: '📊' },
+    { href: '/pengajuan', label: 'RAPB Bulanan', icon: '📝' },
+    { href: '/password', label: 'Ganti Password', icon: '🔑' },
+  ],
+  wakil_rektor_2: [
+    { href: '/dashboard', label: 'Dashboard', icon: '📊' },
+    { href: '/pengajuan', label: 'RAPB Bulanan', icon: '📝' },
+    { href: '/password', label: 'Ganti Password', icon: '🔑' },
+  ],
+  rektor: [
+    { href: '/dashboard', label: 'Dashboard', icon: '📊' },
+    { href: '/pengajuan', label: 'RAPB Bulanan', icon: '📝' },
+    { href: '/password', label: 'Ganti Password', icon: '🔑' },
+  ],
   admin: [
     { href: '/dashboard', label: 'Dashboard', icon: '📊' },
     { href: '/master', label: 'Master Data', icon: '🏛️' },

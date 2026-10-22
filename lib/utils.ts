@@ -12,7 +12,7 @@ export const BULAN_NAMES = ['','Januari','Februari','Maret','April','Mei','Juni'
 export function formatBulan(bulan: number, tahun: number): string { return `${BULAN_NAMES[bulan]} ${tahun}` }
 
 // Status
-export type PengajuanStatus = 'draft'|'pending_kepala'|'revision_kepala'|'pending_keuangan'|'revision_keuangan'|'pending_rektorat'|'revision_rektorat'|'approved'|'rejected'
+export type PengajuanStatus = 'draft'|'pending_kepala'|'revision_kepala'|'pending_keuangan'|'revision_keuangan'|'pending_rektorat'|'revision_rektorat'|'approved'|'rejected'|'pending_dekan'|'pending_keuangan_awal'|'pending_wr1'|'pending_wr2'|'pending_rektor'|'pending_keuangan_akhir'|'revision_bulanan'
 export type AnggaranStatus = PengajuanStatus
 
 export const STATUS_CONFIG: Record<PengajuanStatus, { label: string; color: string; bg: string }> = {
@@ -25,12 +25,23 @@ export const STATUS_CONFIG: Record<PengajuanStatus, { label: string; color: stri
     revision_rektorat: { label: 'Revisi dari Rektorat', color: 'text-orange-700', bg: 'bg-orange-100' },
     approved: { label: 'Disetujui', color: 'text-green-700', bg: 'bg-green-100' },
     rejected: { label: 'Ditolak', color: 'text-red-700', bg: 'bg-red-100' },
+    pending_dekan: { label: 'Menunggu Dekan', color: 'text-blue-700', bg: 'bg-blue-100' },
+    pending_keuangan_awal: { label: 'Menunggu Keuangan', color: 'text-purple-700', bg: 'bg-purple-100' },
+    pending_wr1: { label: 'Menunggu Wakil Rektor 1', color: 'text-indigo-700', bg: 'bg-indigo-100' },
+    pending_wr2: { label: 'Menunggu Wakil Rektor 2', color: 'text-indigo-700', bg: 'bg-indigo-100' },
+    pending_rektor: { label: 'Menunggu Rektor', color: 'text-indigo-700', bg: 'bg-indigo-100' },
+    pending_keuangan_akhir: { label: 'Menunggu Keuangan Final', color: 'text-purple-700', bg: 'bg-purple-100' },
+    revision_bulanan: { label: 'Perlu Revisi', color: 'text-orange-700', bg: 'bg-orange-100' },
 }
 
 export const ROLE_CONFIG: Record<string, { label: string; color: string }> = {
     anggota: { label: 'Anggota', color: 'text-gray-600' },
     kepala_divisi: { label: 'Kepala Divisi', color: 'text-blue-700' },
+    dekan: { label: 'Dekan', color: 'text-blue-700' },
     keuangan: { label: 'Keuangan', color: 'text-emerald-700' },
+    wakil_rektor_1: { label: 'Wakil Rektor 1', color: 'text-purple-700' },
+    wakil_rektor_2: { label: 'Wakil Rektor 2', color: 'text-purple-700' },
+    rektor: { label: 'Rektor', color: 'text-purple-700' },
     rektorat: { label: 'Rektorat', color: 'text-purple-700' },
     admin: { label: 'Administrator', color: 'text-red-700' },
 }

@@ -5,7 +5,15 @@ import * as XLSX from 'xlsx'
 import { formatRupiah, BULAN_NAMES } from '@/lib/utils'
 
 interface ParsedRow { [key: string]: string | number }
-interface Unit { id: string; kode: string; nama: string }
+interface Unit {
+    id: string
+    kode: string
+    nama: string
+    department_no?: string
+    name?: string
+    category?: string
+    status?: string
+}
 interface Coa { id: string; nama_akun: string; tipe_akun: string }
 
 export default function SubmitPage() {
@@ -82,7 +90,7 @@ export default function SubmitPage() {
                         <div className="card" style={{ marginBottom: '16px' }}>
                             <h2 style={{ margin: '0 0 20px', fontSize: '16px', fontWeight: 600 }}>Informasi Pengajuan</h2>
                             <div className="form-group"><label className="form-label">Judul *</label><input className="form-input" placeholder="Contoh: Pengajuan Gaji Maret 2026" value={form.judul} onChange={e => setForm(f => ({ ...f, judul: e.target.value }))} required /></div>
-                            <div className="form-group"><label className="form-label">Unit / Prodi *</label><select className="form-input" value={form.unit_id} onChange={e => setForm(f => ({ ...f, unit_id: e.target.value }))} required><option value="">Pilih</option>{units.map(u => <option key={u.id} value={u.id}>{u.nama} ({u.kode})</option>)}</select></div>
+                            <div className="form-group"><label className="form-label">Unit / Prodi *</label><select className="form-input" value={form.unit_id} onChange={e => setForm(f => ({ ...f, unit_id: e.target.value }))} required><option value="">Pilih</option>{units.map(u => <option key={u.id} value={u.id}>[{u.category === 'prodi' ? 'Prodi' : 'Unit'}] {u.name || u.nama} ({u.department_no || u.kode})</option>)}</select></div>
                             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '12px' }}>
                                 <div className="form-group"><label className="form-label">Bulan *</label><select className="form-input" value={form.bulan} onChange={e => setForm(f => ({ ...f, bulan: Number(e.target.value) }))}>{BULAN_NAMES.slice(1).map((b, i) => <option key={i + 1} value={i + 1}>{b}</option>)}</select></div>
                                 <div className="form-group"><label className="form-label">Tahun *</label><select className="form-input" value={form.tahun} onChange={e => setForm(f => ({ ...f, tahun: Number(e.target.value) }))}>{[2024, 2025, 2026, 2027].map(y => <option key={y} value={y}>{y}</option>)}</select></div>

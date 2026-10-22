@@ -3,7 +3,15 @@ import { useState, useEffect } from 'react'
 import { createClient } from '@/lib/supabase/client'
 import { formatRupiah, BULAN_NAMES } from '@/lib/utils'
 
-interface Unit { id: string; kode: string; nama: string }
+interface Unit {
+    id: string
+    kode: string
+    nama: string
+    department_no?: string
+    name?: string
+    category?: string
+    status?: string
+}
 
 export default function LaporanPage() {
     const supabase = createClient()
@@ -64,7 +72,7 @@ export default function LaporanPage() {
                 <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap', alignItems: 'flex-end' }}>
                     <div><label className="form-label">Bulan</label><select className="form-input" style={{ width: '150px' }} value={fBulan} onChange={e => setFBulan(Number(e.target.value))}>{BULAN_NAMES.slice(1).map((b, i) => <option key={i + 1} value={i + 1}>{b}</option>)}</select></div>
                     <div><label className="form-label">Tahun</label><select className="form-input" style={{ width: '120px' }} value={fTahun} onChange={e => setFTahun(Number(e.target.value))}>{[2024, 2025, 2026, 2027].map(y => <option key={y} value={y}>{y}</option>)}</select></div>
-                    <div><label className="form-label">Unit</label><select className="form-input" style={{ width: '220px' }} value={fUnit} onChange={e => setFUnit(e.target.value)}><option value="">Semua</option>{units.map(u => <option key={u.id} value={u.id}>{u.nama}</option>)}</select></div>
+                    <div><label className="form-label">Unit</label><select className="form-input" style={{ width: '260px' }} value={fUnit} onChange={e => setFUnit(e.target.value)}><option value="">Semua</option>{units.map(u => <option key={u.id} value={u.id}>[{u.category === 'prodi' ? 'Prodi' : 'Unit'}] {u.name || u.nama} ({u.department_no || u.kode})</option>)}</select></div>
                 </div>
             </div>
 

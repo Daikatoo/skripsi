@@ -16,7 +16,15 @@ interface UserProfile {
     created_at: string
 }
 
-interface Unit { id: string; nama: string; kode: string }
+interface Unit {
+    id: string
+    nama: string
+    kode: string
+    department_no?: string
+    name?: string
+    category?: string
+    status?: string
+}
 
 export default function AdminUsersPage() {
     const supabase = createClient()
@@ -353,7 +361,11 @@ export default function AdminUsersPage() {
                                         value={form.role} onChange={handleChange} required>
                                         <option value="anggota">Anggota</option>
                                         <option value="kepala_divisi">Kepala Divisi</option>
+                                        <option value="dekan">Dekan</option>
                                         <option value="keuangan">Keuangan</option>
+                                        <option value="wakil_rektor_1">Wakil Rektor 1</option>
+                                        <option value="wakil_rektor_2">Wakil Rektor 2</option>
+                                        <option value="rektor">Rektor</option>
                                         <option value="rektorat">Rektorat</option>
                                         <option value="admin">Administrator</option>
                                     </select>
@@ -365,7 +377,9 @@ export default function AdminUsersPage() {
                                         value={form.unit_id} onChange={handleChange} required>
                                         <option value="">Pilih Unit / Divisi</option>
                                         {units.map((u) => (
-                                            <option key={u.id} value={u.id}>{u.nama} ({u.kode})</option>
+                                            <option key={u.id} value={u.id}>
+                                                [{u.category === 'prodi' ? 'Prodi' : 'Unit'}] {u.name || u.nama} ({u.department_no || u.kode})
+                                            </option>
                                         ))}
                                     </select>
                                 </div>
